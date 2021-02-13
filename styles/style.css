@@ -304,8 +304,25 @@ details summary::-webkit-details-marker {
       flex-wrap: wrap;
 }
 
+.goods__box .item:nth-last-child(n+4) {
+  margin-bottom: 30px;
+}
+
 .goods__button {
   display: inline-block;
+  border: 1px solid #F16D7F;
+  color: #F16D7F;
+  padding: 12px 38px;
+  margin-top: 48px;
+  -webkit-transition: background-color, color .3s;
+  transition: background-color, color .3s;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.goods__button:hover {
+  background-color: #F16D7F;
+  color: #fff;
 }
 
 .item {

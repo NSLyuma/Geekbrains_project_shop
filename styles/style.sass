@@ -216,8 +216,22 @@ details summary::-webkit-details-marker
         justify-content: space-between
         flex-wrap: wrap
 
+        & .item:nth-last-child(n+4)
+            margin-bottom: 30px
+
     &__button
         display: inline-block
+        border: 1px solid $colorSelect
+        color: $colorSelect
+        padding: 12px 38px
+        margin-top: 48px
+        transition: background-color, color .3s
+        font-size: 16px
+        line-height: 19px
+
+        &:hover
+            background-color: $colorSelect
+            color: #fff
 
 .item
     width: 360px
